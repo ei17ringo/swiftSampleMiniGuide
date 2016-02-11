@@ -14,6 +14,10 @@
 		1BE8C7CC1C6C705300D0B23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8C7CA1C6C705300D0B23B /* LaunchScreen.storyboard */; };
 		1BE8C7D71C6C705300D0B23B /* sampleMiniGuideBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8C7D61C6C705300D0B23B /* sampleMiniGuideBookTests.swift */; };
 		1BE8C7E21C6C705300D0B23B /* sampleMiniGuideBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8C7E11C6C705300D0B23B /* sampleMiniGuideBookUITests.swift */; };
+		1BE8C7F01C6C709900D0B23B /* guideList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8C7EF1C6C709900D0B23B /* guideList.plist */; };
+		1BE8C7F21C6C862400D0B23B /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8C7F11C6C862400D0B23B /* secondViewController.swift */; };
+		1BE8C7F51C6C8BC800D0B23B /* ayala.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8C7F31C6C8BC800D0B23B /* ayala.png */; };
+		1BE8C7F61C6C8BC800D0B23B /* moalboal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8C7F41C6C8BC800D0B23B /* moalboal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		1BE8C7DD1C6C705300D0B23B /* sampleMiniGuideBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleMiniGuideBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE8C7E11C6C705300D0B23B /* sampleMiniGuideBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleMiniGuideBookUITests.swift; sourceTree = "<group>"; };
 		1BE8C7E31C6C705300D0B23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE8C7EF1C6C709900D0B23B /* guideList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = guideList.plist; sourceTree = "<group>"; };
+		1BE8C7F11C6C862400D0B23B /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		1BE8C7F31C6C8BC800D0B23B /* ayala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayala.png; sourceTree = "<group>"; };
+		1BE8C7F41C6C8BC800D0B23B /* moalboal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moalboal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		1BE8C7C01C6C705300D0B23B /* sampleMiniGuideBook */ = {
 			isa = PBXGroup;
 			children = (
+				1BE8C7F31C6C8BC800D0B23B /* ayala.png */,
+				1BE8C7F41C6C8BC800D0B23B /* moalboal.png */,
 				1BE8C7C11C6C705300D0B23B /* AppDelegate.swift */,
 				1BE8C7C31C6C705300D0B23B /* ViewController.swift */,
 				1BE8C7C51C6C705300D0B23B /* Main.storyboard */,
 				1BE8C7C81C6C705300D0B23B /* Assets.xcassets */,
 				1BE8C7CA1C6C705300D0B23B /* LaunchScreen.storyboard */,
 				1BE8C7CD1C6C705300D0B23B /* Info.plist */,
+				1BE8C7EF1C6C709900D0B23B /* guideList.plist */,
+				1BE8C7F11C6C862400D0B23B /* secondViewController.swift */,
 			);
 			path = sampleMiniGuideBook;
 			sourceTree = "<group>";
@@ -231,7 +243,10 @@
 			files = (
 				1BE8C7CC1C6C705300D0B23B /* LaunchScreen.storyboard in Resources */,
 				1BE8C7C91C6C705300D0B23B /* Assets.xcassets in Resources */,
+				1BE8C7F51C6C8BC800D0B23B /* ayala.png in Resources */,
 				1BE8C7C71C6C705300D0B23B /* Main.storyboard in Resources */,
+				1BE8C7F61C6C8BC800D0B23B /* moalboal.png in Resources */,
+				1BE8C7F01C6C709900D0B23B /* guideList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE8C7C41C6C705300D0B23B /* ViewController.swift in Sources */,
+				1BE8C7F21C6C862400D0B23B /* secondViewController.swift in Sources */,
 				1BE8C7C21C6C705300D0B23B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
